@@ -682,7 +682,7 @@ class ProviderCSVValidatorTestCase(unittest.TestCase):
             "Matter Type 1": u"QPRO",
             "Matter Type 2": u"QAGE",
             "Stage Reached": u"QA",
-            "Outcome Code": u"Q_PLACE_HOLDER",
+            "Outcome Code": u"QAA",
         }
         self._test_generated_2018_contract_row_validates(override=test_values)
 
