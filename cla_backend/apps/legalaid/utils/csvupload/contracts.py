@@ -250,6 +250,13 @@ welfare_category_spec = {
     "STAGE_REACHED": {u"WA", u"WB", u"WC", u"WD"},
 }
 
+misc_category_spec = {
+    "OUTCOME_CODES": {},
+    "MATTER_TYPE1": {},
+    "MATTER_TYPE2": {},
+    "STAGE_REACHED": {u"MA", u"MB", u"MC", u"MD"},
+}
+
 contract_2013_category_spec = {
     u"debt": deepcopy(debt_category_spec),
     u"discrimination": deepcopy(discrimination_category_spec),
@@ -272,6 +279,7 @@ contract_2018_category_spec = {
     u"family": deepcopy(family_category_spec),
     u"housing": deepcopy(housing_category_spec),
     u"welfare": deepcopy(welfare_category_spec),
+    u"misc": deepcopy(misc_category_spec),
 }
 
 
